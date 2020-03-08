@@ -1,0 +1,171 @@
+[Sun Mar 08 15:40:34.150335 2020] [core:warn] [pid 153744:tid 628] AH00098: pid file F:/MXonline/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Mar 08 15:40:34.156348 2020] [mpm_winnt:notice] [pid 153744:tid 628] AH00455: Apache/2.4.35 (Win64) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Sun Mar 08 15:40:34.156348 2020] [mpm_winnt:notice] [pid 153744:tid 628] AH00456: Apache Lounge VC14 Server built: Sep 20 2018 15:04:11
+[Sun Mar 08 15:40:34.156348 2020] [core:notice] [pid 153744:tid 628] AH00094: Command line: 'F:\\MXonline\\Apache24\\bin\\httpd.exe -d F:/MXonline/Apache24'
+[Sun Mar 08 15:40:34.354894 2020] [mpm_winnt:notice] [pid 153744:tid 628] AH00418: Parent: Created child process 164248
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00026c2c (most recent call first):
+[Sun Mar 08 15:40:51.683058 2020] [mpm_winnt:crit] [pid 153744:tid 628] AH00419: master_main: create child process failed. Exiting.
+[Sun Mar 08 15:51:42.506424 2020] [mpm_winnt:notice] [pid 123368:tid 640] AH00455: Apache/2.4.35 (Win64) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Sun Mar 08 15:51:42.519545 2020] [mpm_winnt:notice] [pid 123368:tid 640] AH00456: Apache Lounge VC14 Server built: Sep 20 2018 15:04:11
+[Sun Mar 08 15:51:42.519545 2020] [core:notice] [pid 123368:tid 640] AH00094: Command line: 'F:\\MXonline\\Apache24\\bin\\httpd.exe -d F:/MXonline/Apache24'
+[Sun Mar 08 15:51:42.530502 2020] [mpm_winnt:notice] [pid 123368:tid 640] AH00418: Parent: Created child process 165040
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x000284ac (most recent call first):
+[Sun Mar 08 15:51:58.356639 2020] [mpm_winnt:crit] [pid 123368:tid 640] AH00419: master_main: create child process failed. Exiting.
+[Sun Mar 08 15:52:34.987377 2020] [mpm_winnt:notice] [pid 165472:tid 660] AH00455: Apache/2.4.35 (Win64) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Sun Mar 08 15:52:34.990375 2020] [mpm_winnt:notice] [pid 165472:tid 660] AH00456: Apache Lounge VC14 Server built: Sep 20 2018 15:04:11
+[Sun Mar 08 15:52:34.990375 2020] [core:notice] [pid 165472:tid 660] AH00094: Command line: 'F:\\MXonline\\Apache24\\bin\\httpd.exe -d F:/MXonline/Apache24'
+[Sun Mar 08 15:52:35.001116 2020] [mpm_winnt:notice] [pid 165472:tid 660] AH00418: Parent: Created child process 138480
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00028414 (most recent call first):
+[Sun Mar 08 15:52:42.214968 2020] [mpm_winnt:crit] [pid 165472:tid 660] AH00419: master_main: create child process failed. Exiting.
+[Sun Mar 08 15:57:47.879312 2020] [mpm_winnt:notice] [pid 164940:tid 652] AH00455: Apache/2.4.35 (Win64) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Sun Mar 08 15:57:47.881294 2020] [mpm_winnt:notice] [pid 164940:tid 652] AH00456: Apache Lounge VC14 Server built: Sep 20 2018 15:04:11
+[Sun Mar 08 15:57:47.881294 2020] [core:notice] [pid 164940:tid 652] AH00094: Command line: 'F:\\MXonline\\Apache24\\bin\\httpd.exe -d F:/MXonline/Apache24'
+[Sun Mar 08 15:57:47.892287 2020] [mpm_winnt:notice] [pid 164940:tid 652] AH00418: Parent: Created child process 133804
+[Sun Mar 08 15:57:50.589279 2020] [mpm_winnt:notice] [pid 133804:tid 732] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 08 15:58:10.652703 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363] mod_wsgi (pid=133804): Failed to exec Python script file 'F:/MXonline/MXonline/wsgi.py'., referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:10.652703 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363] mod_wsgi (pid=133804): Exception occurred processing WSGI script 'F:/MXonline/MXonline/wsgi.py'., referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.011023 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363] Traceback (most recent call last):\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.105969 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363]   File "F:/MXonline/MXonline/wsgi.py", line 16, in <module>\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.105969 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363]     application = get_wsgi_application()\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.105969 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.105969 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363]     django.setup(set_prefix=False)\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.105969 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\__init__.py", line 24, in setup\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.105969 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363]     apps.populate(settings.INSTALLED_APPS)\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.105969 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\apps\\registry.py", line 89, in populate\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.105969 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363]     app_config = AppConfig.create(entry)\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.105969 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\apps\\config.py", line 90, in create\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.105969 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363]     module = import_module(entry)\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.105969 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\importlib\\__init__.py", line 126, in import_module\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.105969 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363]     return _bootstrap._gcd_import(name[level:], package, level)\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.105969 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.105969 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.105969 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363]   File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 15:58:11.105969 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56363] ModuleNotFoundError: No module named 'captcha'\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 16:00:56.348489 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56422] mod_wsgi (pid=133804): Failed to exec Python script file 'F:/MXonline/MXonline/wsgi.py'., referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 16:00:56.348489 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56422] mod_wsgi (pid=133804): Exception occurred processing WSGI script 'F:/MXonline/MXonline/wsgi.py'., referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 16:00:56.349487 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56422] Traceback (most recent call last):\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 16:00:56.349487 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56422]   File "F:/MXonline/MXonline/wsgi.py", line 16, in <module>\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 16:00:56.349487 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56422]     application = get_wsgi_application()\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 16:00:56.349487 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56422]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 16:00:56.349487 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56422]     django.setup(set_prefix=False)\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 16:00:56.349487 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56422]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\__init__.py", line 24, in setup\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 16:00:56.349487 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56422]     apps.populate(settings.INSTALLED_APPS)\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 16:00:56.349487 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56422]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\apps\\registry.py", line 81, in populate\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 16:00:56.349487 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56422]     raise RuntimeError("populate() isn't reentrant")\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 16:00:56.349487 2020] [wsgi:error] [pid 133804:tid 1200] [client 127.0.0.1:56422] RuntimeError: populate() isn't reentrant\r, referer: http://127.0.0.1:8000/course/list/
+[Sun Mar 08 16:06:58.659346 2020] [mpm_winnt:notice] [pid 164940:tid 652] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 08 16:07:00.687671 2020] [mpm_winnt:notice] [pid 133804:tid 732] AH00364: Child: All worker threads have exited.
+[Sun Mar 08 16:07:00.768584 2020] [mpm_winnt:notice] [pid 164940:tid 652] AH00430: Parent: Child process 133804 exited successfully.
+[Sun Mar 08 18:51:14.276442 2020] [mpm_winnt:notice] [pid 146020:tid 636] AH00455: Apache/2.4.35 (Win64) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Sun Mar 08 18:51:14.309443 2020] [mpm_winnt:notice] [pid 146020:tid 636] AH00456: Apache Lounge VC14 Server built: Sep 20 2018 15:04:11
+[Sun Mar 08 18:51:14.309443 2020] [core:notice] [pid 146020:tid 636] AH00094: Command line: 'F:\\MXonline\\Apache24\\bin\\httpd.exe -d F:/MXonline/Apache24'
+[Sun Mar 08 18:51:14.324417 2020] [mpm_winnt:notice] [pid 146020:tid 636] AH00418: Parent: Created child process 160064
+[Sun Mar 08 18:51:17.143263 2020] [mpm_winnt:notice] [pid 160064:tid 652] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 08 18:51:50.767211 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301] mod_wsgi (pid=160064): Failed to exec Python script file 'F:/MXonline/MXonline/wsgi.py'.
+[Sun Mar 08 18:51:50.767211 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301] mod_wsgi (pid=160064): Exception occurred processing WSGI script 'F:/MXonline/MXonline/wsgi.py'.
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301] Traceback (most recent call last):\r
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301]   File "F:/MXonline/MXonline/wsgi.py", line 16, in <module>\r
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301]     application = get_wsgi_application()\r
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301]     django.setup(set_prefix=False)\r
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\__init__.py", line 24, in setup\r
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301]     apps.populate(settings.INSTALLED_APPS)\r
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\apps\\registry.py", line 89, in populate\r
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301]     app_config = AppConfig.create(entry)\r
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\apps\\config.py", line 90, in create\r
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301]     module = import_module(entry)\r
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\importlib\\__init__.py", line 126, in import_module\r
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301]     return _bootstrap._gcd_import(name[level:], package, level)\r
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import\r
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load\r
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301]   File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked\r
+[Sun Mar 08 18:51:50.811187 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:63301] ModuleNotFoundError: No module named 'pure_pagination'\r
+[Sun Mar 08 19:28:01.671264 2020] [wsgi:error] [pid 160064:tid 1188] [client 127.0.0.1:64956] mod_wsgi (pid=160064): Failed to exec Python script file 'F:/MXonline/MXonline/wsgi.py'.
+[Sun Mar 08 19:28:01.671264 2020] [wsgi:error] [pid 160064:tid 1188] [client 127.0.0.1:64956] mod_wsgi (pid=160064): Exception occurred processing WSGI script 'F:/MXonline/MXonline/wsgi.py'.
+[Sun Mar 08 19:28:01.674263 2020] [wsgi:error] [pid 160064:tid 1188] [client 127.0.0.1:64956] Traceback (most recent call last):\r
+[Sun Mar 08 19:28:01.674263 2020] [wsgi:error] [pid 160064:tid 1188] [client 127.0.0.1:64956]   File "F:/MXonline/MXonline/wsgi.py", line 16, in <module>\r
+[Sun Mar 08 19:28:01.674263 2020] [wsgi:error] [pid 160064:tid 1188] [client 127.0.0.1:64956]     application = get_wsgi_application()\r
+[Sun Mar 08 19:28:01.674263 2020] [wsgi:error] [pid 160064:tid 1188] [client 127.0.0.1:64956]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sun Mar 08 19:28:01.674263 2020] [wsgi:error] [pid 160064:tid 1188] [client 127.0.0.1:64956]     django.setup(set_prefix=False)\r
+[Sun Mar 08 19:28:01.674263 2020] [wsgi:error] [pid 160064:tid 1188] [client 127.0.0.1:64956]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\__init__.py", line 24, in setup\r
+[Sun Mar 08 19:28:01.674263 2020] [wsgi:error] [pid 160064:tid 1188] [client 127.0.0.1:64956]     apps.populate(settings.INSTALLED_APPS)\r
+[Sun Mar 08 19:28:01.674263 2020] [wsgi:error] [pid 160064:tid 1188] [client 127.0.0.1:64956]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\apps\\registry.py", line 81, in populate\r
+[Sun Mar 08 19:28:01.674263 2020] [wsgi:error] [pid 160064:tid 1188] [client 127.0.0.1:64956]     raise RuntimeError("populate() isn't reentrant")\r
+[Sun Mar 08 19:28:01.675263 2020] [wsgi:error] [pid 160064:tid 1188] [client 127.0.0.1:64956] RuntimeError: populate() isn't reentrant\r
+[Sun Mar 08 19:28:05.454516 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:64957] mod_wsgi (pid=160064): Failed to exec Python script file 'F:/MXonline/MXonline/wsgi.py'.
+[Sun Mar 08 19:28:05.454516 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:64957] mod_wsgi (pid=160064): Exception occurred processing WSGI script 'F:/MXonline/MXonline/wsgi.py'.
+[Sun Mar 08 19:28:05.456515 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:64957] Traceback (most recent call last):\r
+[Sun Mar 08 19:28:05.456515 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:64957]   File "F:/MXonline/MXonline/wsgi.py", line 16, in <module>\r
+[Sun Mar 08 19:28:05.456515 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:64957]     application = get_wsgi_application()\r
+[Sun Mar 08 19:28:05.456515 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:64957]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sun Mar 08 19:28:05.456515 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:64957]     django.setup(set_prefix=False)\r
+[Sun Mar 08 19:28:05.456515 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:64957]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\__init__.py", line 24, in setup\r
+[Sun Mar 08 19:28:05.456515 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:64957]     apps.populate(settings.INSTALLED_APPS)\r
+[Sun Mar 08 19:28:05.456515 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:64957]   File "C:\\Users\\dell\\Programs\\Python\\Python36\\lib\\site-packages\\django\\apps\\registry.py", line 81, in populate\r
+[Sun Mar 08 19:28:05.456515 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:64957]     raise RuntimeError("populate() isn't reentrant")\r
+[Sun Mar 08 19:28:05.456515 2020] [wsgi:error] [pid 160064:tid 1196] [client 127.0.0.1:64957] RuntimeError: populate() isn't reentrant\r
+[Sun Mar 08 19:40:40.166349 2020] [mpm_winnt:notice] [pid 146020:tid 636] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 08 19:40:42.183817 2020] [mpm_winnt:notice] [pid 160064:tid 652] AH00364: Child: All worker threads have exited.
+[Sun Mar 08 19:40:42.741367 2020] [mpm_winnt:notice] [pid 146020:tid 636] AH00430: Parent: Child process 160064 exited successfully.
+[Sun Mar 08 19:40:45.988533 2020] [mpm_winnt:notice] [pid 170708:tid 696] AH00455: Apache/2.4.35 (Win64) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Sun Mar 08 19:40:45.991531 2020] [mpm_winnt:notice] [pid 170708:tid 696] AH00456: Apache Lounge VC14 Server built: Sep 20 2018 15:04:11
+[Sun Mar 08 19:40:45.991531 2020] [core:notice] [pid 170708:tid 696] AH00094: Command line: 'F:\\MXonline\\Apache24\\bin\\httpd.exe -d F:/MXonline/Apache24'
+[Sun Mar 08 19:40:46.003510 2020] [mpm_winnt:notice] [pid 170708:tid 696] AH00418: Parent: Created child process 169744
+[Sun Mar 08 19:40:48.457861 2020] [mpm_winnt:notice] [pid 169744:tid 668] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 08 19:43:24.485738 2020] [autoindex:error] [pid 169744:tid 1188] [client 127.0.0.1:49302] AH01276: Cannot serve directory F:/MXonline/media/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive, referer: http://127.0.0.1:8000/org/teacher/list/
+[Sun Mar 08 19:43:37.518990 2020] [autoindex:error] [pid 169744:tid 1188] [client 127.0.0.1:49312] AH01276: Cannot serve directory F:/MXonline/media/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive, referer: http://127.0.0.1:8000/org/teacher/list/?page=2
+[Sun Mar 08 19:43:39.307034 2020] [autoindex:error] [pid 169744:tid 1188] [client 127.0.0.1:49312] AH01276: Cannot serve directory F:/MXonline/media/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive, referer: http://127.0.0.1:8000/org/teacher/list/?page=3
+[Sun Mar 08 19:44:22.704661 2020] [wsgi:error] [pid 169744:tid 1196] [client 127.0.0.1:49394] Not Found: /users/info/index.html\r, referer: http://127.0.0.1:8000/users/info/
+[Sun Mar 08 19:45:48.019439 2020] [mpm_winnt:notice] [pid 170708:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 08 19:45:50.021089 2020] [mpm_winnt:notice] [pid 169744:tid 668] AH00364: Child: All worker threads have exited.
+[Sun Mar 08 19:45:50.614409 2020] [mpm_winnt:notice] [pid 170708:tid 696] AH00430: Parent: Child process 169744 exited successfully.
+[Sun Mar 08 19:45:53.597517 2020] [mpm_winnt:notice] [pid 168948:tid 652] AH00455: Apache/2.4.35 (Win64) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Sun Mar 08 19:45:53.600519 2020] [mpm_winnt:notice] [pid 168948:tid 652] AH00456: Apache Lounge VC14 Server built: Sep 20 2018 15:04:11
+[Sun Mar 08 19:45:53.600519 2020] [core:notice] [pid 168948:tid 652] AH00094: Command line: 'F:\\MXonline\\Apache24\\bin\\httpd.exe -d F:/MXonline/Apache24'
+[Sun Mar 08 19:45:53.613513 2020] [mpm_winnt:notice] [pid 168948:tid 652] AH00418: Parent: Created child process 170632
+[Sun Mar 08 19:45:57.158229 2020] [mpm_winnt:notice] [pid 170632:tid 592] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 08 19:47:03.180389 2020] [mpm_winnt:notice] [pid 168948:tid 652] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 08 19:47:05.182991 2020] [mpm_winnt:notice] [pid 170632:tid 592] AH00364: Child: All worker threads have exited.
+[Sun Mar 08 19:47:05.421852 2020] [mpm_winnt:notice] [pid 168948:tid 652] AH00430: Parent: Child process 170632 exited successfully.
+[Sun Mar 08 19:52:26.158543 2020] [mpm_winnt:notice] [pid 127396:tid 672] AH00455: Apache/2.4.35 (Win64) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Sun Mar 08 19:52:26.161542 2020] [mpm_winnt:notice] [pid 127396:tid 672] AH00456: Apache Lounge VC14 Server built: Sep 20 2018 15:04:11
+[Sun Mar 08 19:52:26.161542 2020] [core:notice] [pid 127396:tid 672] AH00094: Command line: 'F:\\MXonline\\Apache24\\bin\\httpd.exe -d F:/MXonline/Apache24'
+[Sun Mar 08 19:52:26.175533 2020] [mpm_winnt:notice] [pid 127396:tid 672] AH00418: Parent: Created child process 111104
+[Sun Mar 08 19:52:28.955243 2020] [mpm_winnt:notice] [pid 111104:tid 724] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 08 19:52:42.709773 2020] [autoindex:error] [pid 111104:tid 1200] [client 127.0.0.1:50223] AH01276: Cannot serve directory F:/MXonline/media/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive, referer: http://127.0.0.1:8000/org/teacher/list/
+[Sun Mar 08 19:57:03.512838 2020] [mpm_winnt:notice] [pid 127396:tid 672] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 08 19:57:05.513939 2020] [mpm_winnt:notice] [pid 111104:tid 724] AH00364: Child: All worker threads have exited.
+[Sun Mar 08 19:57:05.815770 2020] [mpm_winnt:notice] [pid 127396:tid 672] AH00430: Parent: Child process 111104 exited successfully.
+[Sun Mar 08 19:57:09.203237 2020] [mpm_winnt:notice] [pid 171596:tid 560] AH00455: Apache/2.4.35 (Win64) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Sun Mar 08 19:57:09.207223 2020] [mpm_winnt:notice] [pid 171596:tid 560] AH00456: Apache Lounge VC14 Server built: Sep 20 2018 15:04:11
+[Sun Mar 08 19:57:09.207223 2020] [core:notice] [pid 171596:tid 560] AH00094: Command line: 'F:\\MXonline\\Apache24\\bin\\httpd.exe -d F:/MXonline/Apache24'
+[Sun Mar 08 19:57:09.233202 2020] [mpm_winnt:notice] [pid 171596:tid 560] AH00418: Parent: Created child process 171636
+[Sun Mar 08 19:57:11.949855 2020] [mpm_winnt:notice] [pid 171636:tid 672] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 08 20:00:23.198699 2020] [mpm_winnt:notice] [pid 171596:tid 560] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 08 20:00:25.201387 2020] [mpm_winnt:notice] [pid 171636:tid 672] AH00364: Child: All worker threads have exited.
+[Sun Mar 08 20:00:25.430725 2020] [mpm_winnt:notice] [pid 171596:tid 560] AH00430: Parent: Child process 171636 exited successfully.
+[Sun Mar 08 20:00:28.584580 2020] [mpm_winnt:notice] [pid 171192:tid 660] AH00455: Apache/2.4.35 (Win64) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Sun Mar 08 20:00:28.587578 2020] [mpm_winnt:notice] [pid 171192:tid 660] AH00456: Apache Lounge VC14 Server built: Sep 20 2018 15:04:11
+[Sun Mar 08 20:00:28.587578 2020] [core:notice] [pid 171192:tid 660] AH00094: Command line: 'F:\\MXonline\\Apache24\\bin\\httpd.exe -d F:/MXonline/Apache24'
+[Sun Mar 08 20:00:28.599557 2020] [mpm_winnt:notice] [pid 171192:tid 660] AH00418: Parent: Created child process 168704
+[Sun Mar 08 20:00:31.039814 2020] [mpm_winnt:notice] [pid 168704:tid 624] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 08 20:04:09.963348 2020] [mpm_winnt:notice] [pid 171192:tid 660] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 08 20:04:11.965703 2020] [mpm_winnt:notice] [pid 168704:tid 624] AH00364: Child: All worker threads have exited.
+[Sun Mar 08 20:04:12.228355 2020] [mpm_winnt:notice] [pid 171192:tid 660] AH00430: Parent: Child process 168704 exited successfully.
+[Sun Mar 08 20:04:15.206181 2020] [mpm_winnt:notice] [pid 171792:tid 656] AH00455: Apache/2.4.35 (Win64) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Sun Mar 08 20:04:15.209178 2020] [mpm_winnt:notice] [pid 171792:tid 656] AH00456: Apache Lounge VC14 Server built: Sep 20 2018 15:04:11
+[Sun Mar 08 20:04:15.209178 2020] [core:notice] [pid 171792:tid 656] AH00094: Command line: 'F:\\MXonline\\Apache24\\bin\\httpd.exe -d F:/MXonline/Apache24'
+[Sun Mar 08 20:04:15.223189 2020] [mpm_winnt:notice] [pid 171792:tid 656] AH00418: Parent: Created child process 171304
+[Sun Mar 08 20:04:17.797249 2020] [mpm_winnt:notice] [pid 171304:tid 560] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 08 20:14:02.914503 2020] [mpm_winnt:notice] [pid 171792:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 08 20:14:04.925362 2020] [mpm_winnt:notice] [pid 171304:tid 560] AH00364: Child: All worker threads have exited.
+[Sun Mar 08 20:14:05.321353 2020] [mpm_winnt:notice] [pid 171792:tid 656] AH00430: Parent: Child process 171304 exited successfully.
